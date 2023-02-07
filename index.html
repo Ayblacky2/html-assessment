@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset=UTF-8" />
+        <meta charset="UTF-8" />
         <title>HTML WORKSHOP</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href=" ./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>  
         <body>
-            <header>
-                <nav>
+                <nav class="myNav">
                     <ul>
                      <li> <a href="Home">Home</a></li>
                      <li> <a href="About">About</a></li>
@@ -16,25 +19,27 @@
                      <li> <a href="Contact">Contact</a></li>
                     </ul>
                 </nav>
-                <form>
-                    <label>About</label>
-                    <input type="text" Name="About me" placeholder="About me"/>
-                    <label>Work</label>
-                    <input type="text" Name="Work" placeholder="Work"/>
-                    <label>Resume</label>
-                    <input type="text" Name="Resume" placeholder="Resume"/>
-                    <label>Contact</label>
-                    <input type="text" Name="Contact" placeholder="Contact"/>
-                </form>
+                <div class="formDiv">
+                    <form class="myForm">
+                        <label>About</label>
+                        <input type="text" Name="About me" placeholder="About me"/>
+                        <label>Work</label>
+                        <input type="text" Name="Work" placeholder="Work"/>
+                        <label>Resume</label>
+                        <input type="text" Name="Resume" placeholder="Resume"/>
+                        <label>Contact</label>
+                        <input type="text" Name="Contact" placeholder="Contact"/>
+                    </form>
+                </div>
                 
-                <footer>
-                    <Section>
+                <footer class="myFooter">
                         <div>
                             <i class="fa fa-facebook-f"></i>
                             <i class="fa fa-twitter"></i>
                             <i class="fa fa-instagram"></i>
                          </div>
-
                 <p>&copy; Gomycode 2021</p>
                 </footer>
-            </header>
+        </body>
+</html>
+            
